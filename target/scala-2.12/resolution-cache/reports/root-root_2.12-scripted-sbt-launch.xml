@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="root"
+		module="root_2.12"
+		revision="0.1-SNAPSHOT"
+		conf="scripted-sbt-launch"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scripted-sbt, scripted-sbt-launch"
+		date="20180625075138"/>
+	<dependencies>
+		<module organisation="org.scala-sbt" name="sbt-launch">
+			<revision name="0.13.17" status="release" pubdate="20180131144738" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="no" details="" size="1176" time="0" location="/home/iamc3ll/.ivy2/cache/org.scala-sbt/sbt-launch/ivy-0.13.17.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.17/ivys/ivy.xml"/>
+				<caller organisation="root" name="root_2.12" conf="scripted-sbt-launch" rev="0.13.17" rev-constraint-default="0.13.17" rev-constraint-dynamic="0.13.17" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sbt-launch" type="jar" ext="jar" status="no" details="" size="1210278" time="0" location="/home/iamc3ll/.ivy2/cache/org.scala-sbt/sbt-launch/jars/sbt-launch-0.13.17.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.17/jars/sbt-launch.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
